@@ -1,0 +1,311 @@
+{
+  "in_domain_answerable": [
+    {
+      "question": "What are the most common causes of engine failure in aircraft?",
+      "expected_contains": [
+        "fuel",
+        "cylinder",
+        "oil",
+        "ignition"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "question": "What action should be taken when a hydraulic leak is found in the landing gear?",
+      "expected_contains": [
+        "inspect",
+        "replace",
+        "seal",
+        "repair"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "question": "What components are most frequently replaced during engine maintenance?",
+      "expected_contains": [
+        "gasket",
+        "seal",
+        "spark plug",
+        "filter"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "question": "How do carburetor problems typically affect aircraft performance?",
+      "expected_contains": [
+        "engine",
+        "fuel",
+        "power",
+        "failure"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "question": "What are the common causes of oil leaks in aircraft engines?",
+      "expected_contains": [
+        "gasket",
+        "seal",
+        "pressure",
+        "crack"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "question": "What maintenance actions are typically required after a hard landing?",
+      "expected_contains": [
+        "inspect",
+        "gear",
+        "structure",
+        "check"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "question": "What causes fuel system failures during flight?",
+      "expected_contains": [
+        "pump",
+        "valve",
+        "leak",
+        "blockage"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "question": "What are signs of magneto failure in aircraft engines?",
+      "expected_contains": [
+        "ignition",
+        "engine",
+        "rpm",
+        "rough"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "question": "What typically causes engine power loss?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What events can result in an abort takeoff?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "Which components are part of an aircraft engine?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What issues are associated with low compression in an engine?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What maintenance action is required for an oil leak?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What causes engine rough running?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What can lead to an emergency landing?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "Where is an engine baffle typically located?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What kind of leak affects engine operation?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What is inspected during a leak check?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What part is a rocker cover gasket associated with?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What can cause a runway excursion?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What maintenance is commonly performed on a #3 cylinder?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What failures affect the right engine?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What typically precedes an aircraft crash?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What components are located within the engine cowl?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What causes an intake leak?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What action is required when a baffle seal fails?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What does engine roughness affect during operation?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What issues are associated with the #4 cylinder?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What action is required for a low compression issue?",
+      "difficulty": "auto"
+    },
+    {
+      "question": "What kind of engine is a left hand engine an instance of?",
+      "difficulty": "auto"
+    }
+  ],
+  "in_domain_unanswerable": [
+    {
+      "question": "What is the exact maintenance schedule for tail number N12345?",
+      "reason": "Specific tail number not in database",
+      "expected_behavior": "abstain"
+    },
+    {
+      "question": "What did technician John Smith do on March 15 1995?",
+      "reason": "Specific person and date not queryable",
+      "expected_behavior": "abstain"
+    },
+    {
+      "question": "What is the exact torque specification for the main rotor bolt?",
+      "reason": "Precise engineering specs not in incident records",
+      "expected_behavior": "abstain"
+    },
+    {
+      "question": "How many total flight hours did aircraft N98765 accumulate before failure?",
+      "reason": "Flight hour tracking not in database",
+      "expected_behavior": "abstain"
+    }
+  ],
+  "out_of_domain": [
+    {
+      "question": "What is the capital of France?",
+      "expected_behavior": "reject"
+    },
+    {
+      "question": "How do I make chocolate cake?",
+      "expected_behavior": "reject"
+    },
+    {
+      "question": "Who won the 2024 US presidential election?",
+      "expected_behavior": "reject"
+    },
+    {
+      "question": "What is the current stock price of Boeing?",
+      "expected_behavior": "reject"
+    },
+    {
+      "question": "Write me a poem about aviation.",
+      "expected_behavior": "reject"
+    }
+  ],
+  "multi_hop": [
+    {
+      "question": "What component failures most commonly lead to emergency landings, and what are the typical repair actions?",
+      "expected_contains": [
+        "engine",
+        "landing",
+        "repair",
+        "replace"
+      ],
+      "difficulty": "hard",
+      "note": "Requires connecting failure -> emergency landing -> repair action"
+    },
+    {
+      "question": "How do fuel system problems affect takeoff safety and what preventive maintenance is recommended?",
+      "expected_contains": [
+        "fuel",
+        "takeoff",
+        "inspect",
+        "pump"
+      ],
+      "difficulty": "hard",
+      "note": "Multi-hop: fuel system -> takeoff failure -> prevention"
+    },
+    {
+      "question": "What is the relationship between cylinder problems and engine power loss during critical flight phases?",
+      "expected_contains": [
+        "cylinder",
+        "power",
+        "engine",
+        "compression"
+      ],
+      "difficulty": "hard",
+      "note": "Requires linking cylinder -> power loss -> flight phase"
+    },
+    {
+      "question": "What are the common outcomes when an oil leak leads to an engine failure?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "If an engine experiences low compression leading to power loss, what immediate flight actions might result?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "If a rocker cover gasket causes a leak, leading to engine roughness, what maintenance action is typically required?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "How does an issue with an engine baffle affect engine operation, and what serious flight event can result from subsequent power loss?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "What are the typical preceding events before an engine failure that results in an aircraft crash?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "What maintenance action is typically required when an intake leak leads to low compression and subsequent engine power loss?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "If the left hand engine experiences a failure during takeoff, what immediate action might result in a runway excursion?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "When a pilot inspects a leak, what engine symptom might that leak be causing?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "How can issues with an engine cowl affect engine operation, potentially leading to engine rough running and requiring an emergency landing?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "If low compression in the #4 cylinder leads to a loss of engine power, what maintenance procedure is typically required?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "What issue can a rocker cover gasket cause that leads to engine roughness, and what action is taken to resolve it?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    },
+    {
+      "question": "What are the sequential events following a right engine failure during takeoff that can lead to a runway excursion?",
+      "difficulty": "hard",
+      "note": "auto-generated multi-hop"
+    }
+  ]
+}

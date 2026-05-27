@@ -1,0 +1,1335 @@
+{
+  "graph_stats": {
+    "total_nodes": 11595,
+    "total_edges": 22038,
+    "total_records": 8917,
+    "relation_types": [
+      "CAUSES",
+      "RESULTS_IN",
+      "PART_OF",
+      "LOCATED_IN",
+      "REQUIRES_ACTION",
+      "INSPECTED_BY",
+      "REPLACED_BY",
+      "PRECEDED_BY",
+      "AFFECTS",
+      "INSTANCE_OF"
+    ]
+  },
+  "relation_distribution": {
+    "PART_OF": 2667,
+    "INSTANCE_OF": 768,
+    "LOCATED_IN": 2619,
+    "AFFECTS": 2112,
+    "RESULTS_IN": 2001,
+    "REQUIRES_ACTION": 4194,
+    "CAUSES": 5589,
+    "PRECEDED_BY": 1197,
+    "INSPECTED_BY": 224,
+    "REPLACED_BY": 667
+  },
+  "hub_entities": [
+    {
+      "entity": "engine",
+      "degree": 926,
+      "record_count": 2422
+    },
+    {
+      "entity": "aircraft",
+      "degree": 721,
+      "record_count": 1340
+    },
+    {
+      "entity": "engine failure",
+      "degree": 456,
+      "record_count": 328
+    },
+    {
+      "entity": "left hand engine",
+      "degree": 309,
+      "record_count": 685
+    },
+    {
+      "entity": "oil leak",
+      "degree": 255,
+      "record_count": 297
+    },
+    {
+      "entity": "takeoff",
+      "degree": 230,
+      "record_count": 295
+    },
+    {
+      "entity": "right engine",
+      "degree": 209,
+      "record_count": 309
+    },
+    {
+      "entity": "abort takeoff",
+      "degree": 192,
+      "record_count": 149
+    },
+    {
+      "entity": "pilot",
+      "degree": 189,
+      "record_count": 210
+    },
+    {
+      "entity": "left engine",
+      "degree": 159,
+      "record_count": 189
+    },
+    {
+      "entity": "#3 cylinder",
+      "degree": 155,
+      "record_count": 378
+    },
+    {
+      "entity": "engine operation",
+      "degree": 154,
+      "record_count": 253
+    },
+    {
+      "entity": "low compression",
+      "degree": 154,
+      "record_count": 151
+    },
+    {
+      "entity": "engine power loss",
+      "degree": 146,
+      "record_count": 79
+    },
+    {
+      "entity": "power loss",
+      "degree": 138,
+      "record_count": 87
+    },
+    {
+      "entity": "emergency landing",
+      "degree": 137,
+      "record_count": 113
+    },
+    {
+      "entity": "#4 cylinder",
+      "degree": 135,
+      "record_count": 345
+    },
+    {
+      "entity": "engine baffle",
+      "degree": 130,
+      "record_count": 170
+    },
+    {
+      "entity": "engine cowl",
+      "degree": 126,
+      "record_count": 243
+    },
+    {
+      "entity": "aircraft crash",
+      "degree": 122,
+      "record_count": 72
+    },
+    {
+      "entity": "#2 cylinder",
+      "degree": 120,
+      "record_count": 337
+    },
+    {
+      "entity": "intake leak",
+      "degree": 120,
+      "record_count": 384
+    },
+    {
+      "entity": "baffle seal",
+      "degree": 119,
+      "record_count": 144
+    },
+    {
+      "entity": "engine roughness",
+      "degree": 114,
+      "record_count": 53
+    },
+    {
+      "entity": "leak",
+      "degree": 113,
+      "record_count": 329
+    },
+    {
+      "entity": "landing gear",
+      "degree": 111,
+      "record_count": 270
+    },
+    {
+      "entity": "rocker cover gasket",
+      "degree": 109,
+      "record_count": 760
+    },
+    {
+      "entity": "leak check",
+      "degree": 109,
+      "record_count": 153
+    },
+    {
+      "entity": "runway excursion",
+      "degree": 106,
+      "record_count": 78
+    },
+    {
+      "entity": "engine rough running",
+      "degree": 106,
+      "record_count": 57
+    },
+    {
+      "entity": "gasket replacement",
+      "degree": 104,
+      "record_count": 1166
+    },
+    {
+      "entity": "cylinder",
+      "degree": 103,
+      "record_count": 348
+    },
+    {
+      "entity": "intake gasket",
+      "degree": 103,
+      "record_count": 721
+    },
+    {
+      "entity": "loss of control",
+      "degree": 102,
+      "record_count": 52
+    },
+    {
+      "entity": "landing",
+      "degree": 96,
+      "record_count": 97
+    },
+    {
+      "entity": "crack",
+      "degree": 95,
+      "record_count": 79
+    },
+    {
+      "entity": "fuel exhaustion",
+      "degree": 93,
+      "record_count": 50
+    },
+    {
+      "entity": "engine runup",
+      "degree": 92,
+      "record_count": 78
+    },
+    {
+      "entity": "force landing",
+      "degree": 91,
+      "record_count": 98
+    },
+    {
+      "entity": "cracked baffle",
+      "degree": 91,
+      "record_count": 93
+    },
+    {
+      "entity": "engine intake leak",
+      "degree": 90,
+      "record_count": 286
+    },
+    {
+      "entity": "fuel system",
+      "degree": 86,
+      "record_count": 171
+    },
+    {
+      "entity": "flight",
+      "degree": 84,
+      "record_count": 92
+    },
+    {
+      "entity": "engine cylinder",
+      "degree": 84,
+      "record_count": 468
+    },
+    {
+      "entity": "engine performance",
+      "degree": 82,
+      "record_count": 143
+    },
+    {
+      "entity": "engine problem",
+      "degree": 81,
+      "record_count": 87
+    },
+    {
+      "entity": "landing gear collapse",
+      "degree": 80,
+      "record_count": 46
+    },
+    {
+      "entity": "nose gear",
+      "degree": 78,
+      "record_count": 114
+    },
+    {
+      "entity": "gasket leak",
+      "degree": 76,
+      "record_count": 251
+    },
+    {
+      "entity": "gasket",
+      "degree": 72,
+      "record_count": 987
+    }
+  ],
+  "relation_patterns": {
+    "CAUSES": {
+      "count": 5589,
+      "top_examples": [
+        {
+          "head": "rocker cover gasket",
+          "tail": "leak",
+          "support": 98
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "rocker cover leak",
+          "support": 65
+        },
+        {
+          "head": "intake gasket",
+          "tail": "intake leak",
+          "support": 57
+        },
+        {
+          "head": "water in fuel",
+          "tail": "engine failure",
+          "support": 53
+        },
+        {
+          "head": "#4 intake gasket",
+          "tail": "gasket leak",
+          "support": 51
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "oil leak",
+          "support": 48
+        },
+        {
+          "head": "#2 intake gasket",
+          "tail": "gasket leak",
+          "support": 44
+        },
+        {
+          "head": "#4 intake gasket",
+          "tail": "engine intake leak",
+          "support": 44
+        },
+        {
+          "head": "#2 intake gasket",
+          "tail": "leaking",
+          "support": 39
+        },
+        {
+          "head": "#1 intake gasket",
+          "tail": "engine intake leak",
+          "support": 30
+        },
+        {
+          "head": "new #3 intake gasket",
+          "tail": "engine intake leak",
+          "support": 27
+        },
+        {
+          "head": "#2 intake gasket",
+          "tail": "leak",
+          "support": 27
+        },
+        {
+          "head": "engine failure",
+          "tail": "force landing",
+          "support": 26
+        },
+        {
+          "head": "#4 intake gasket",
+          "tail": "leaking",
+          "support": 26
+        },
+        {
+          "head": "#1 rocker gasket leak",
+          "tail": "gasket leak",
+          "support": 23
+        },
+        {
+          "head": "engine",
+          "tail": "rough running",
+          "support": 21
+        },
+        {
+          "head": "rocker covers",
+          "tail": "oil leak",
+          "support": 21
+        },
+        {
+          "head": "left engine cylinder",
+          "tail": "low compression",
+          "support": 19
+        },
+        {
+          "head": "water in fuel",
+          "tail": "power loss",
+          "support": 18
+        },
+        {
+          "head": "#2 intake gasket",
+          "tail": "engine intake leak",
+          "support": 18
+        }
+      ]
+    },
+    "RESULTS_IN": {
+      "count": 2001,
+      "top_examples": [
+        {
+          "head": "leak check",
+          "tail": "good leak check",
+          "support": 31
+        },
+        {
+          "head": "abort takeoff",
+          "tail": "runway excursion",
+          "support": 22
+        },
+        {
+          "head": "engine failure",
+          "tail": "emergency landing",
+          "support": 18
+        },
+        {
+          "head": "engine failure",
+          "tail": "force landing",
+          "support": 12
+        },
+        {
+          "head": "engine removal",
+          "tail": "repair facilitation",
+          "support": 9
+        },
+        {
+          "head": "normal starting procedures",
+          "tail": "aircraft start",
+          "support": 5
+        },
+        {
+          "head": "leak check",
+          "tail": "leak confirmed",
+          "support": 5
+        },
+        {
+          "head": "engine failure",
+          "tail": "landed gear up",
+          "support": 4
+        },
+        {
+          "head": "engine failure",
+          "tail": "crash landing",
+          "support": 4
+        },
+        {
+          "head": "force landing",
+          "tail": "aircraft nose over",
+          "support": 4
+        },
+        {
+          "head": "force landing",
+          "tail": "tree strike",
+          "support": 4
+        },
+        {
+          "head": "hard landing",
+          "tail": "aircraft damage",
+          "support": 4
+        },
+        {
+          "head": "crash",
+          "tail": "aircraft damage",
+          "support": 4
+        },
+        {
+          "head": "engine rough running",
+          "tail": "partial power loss",
+          "support": 4
+        },
+        {
+          "head": "start assist",
+          "tail": "aircraft start",
+          "support": 4
+        },
+        {
+          "head": "engine runup",
+          "tail": "discrepancy not duplicated",
+          "support": 4
+        },
+        {
+          "head": "engine failure",
+          "tail": "aircraft crash",
+          "support": 3
+        },
+        {
+          "head": "engine failure",
+          "tail": "landing off airport",
+          "support": 3
+        },
+        {
+          "head": "force landing",
+          "tail": "striking trees",
+          "support": 3
+        },
+        {
+          "head": "abort takeoff",
+          "tail": "aircraft ran off runway end",
+          "support": 3
+        }
+      ]
+    },
+    "PART_OF": {
+      "count": 2667,
+      "top_examples": [
+        {
+          "head": "engine",
+          "tail": "aircraft",
+          "support": 279
+        },
+        {
+          "head": "intake gasket",
+          "tail": "engine intake system",
+          "support": 193
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "engine cylinder",
+          "support": 179
+        },
+        {
+          "head": "cylinder",
+          "tail": "engine",
+          "support": 153
+        },
+        {
+          "head": "left hand engine",
+          "tail": "aircraft",
+          "support": 106
+        },
+        {
+          "head": "gasket",
+          "tail": "engine intake system",
+          "support": 105
+        },
+        {
+          "head": "#4 cylinder",
+          "tail": "engine",
+          "support": 104
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "engine cylinder head",
+          "support": 103
+        },
+        {
+          "head": "#3 cylinder",
+          "tail": "engine",
+          "support": 99
+        },
+        {
+          "head": "landing gear",
+          "tail": "aircraft",
+          "support": 89
+        },
+        {
+          "head": "intake gasket",
+          "tail": "engine",
+          "support": 82
+        },
+        {
+          "head": "right engine",
+          "tail": "aircraft",
+          "support": 79
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "engine",
+          "support": 70
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "cylinder",
+          "support": 67
+        },
+        {
+          "head": "rocker cover",
+          "tail": "engine",
+          "support": 67
+        },
+        {
+          "head": "#2 cylinder",
+          "tail": "engine",
+          "support": 65
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "rocker cover",
+          "support": 59
+        },
+        {
+          "head": "#2 intake gasket",
+          "tail": "engine intake system",
+          "support": 59
+        },
+        {
+          "head": "rocker cover",
+          "tail": "engine cylinder",
+          "support": 49
+        },
+        {
+          "head": "engine baffle",
+          "tail": "engine",
+          "support": 48
+        }
+      ]
+    },
+    "LOCATED_IN": {
+      "count": 2619,
+      "top_examples": [
+        {
+          "head": "intake leak",
+          "tail": "left hand engine",
+          "support": 88
+        },
+        {
+          "head": "engine",
+          "tail": "aircraft",
+          "support": 48
+        },
+        {
+          "head": "water",
+          "tail": "fuel",
+          "support": 37
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "left hand engine",
+          "support": 31
+        },
+        {
+          "head": "rocker cover leak",
+          "tail": "left hand engine",
+          "support": 31
+        },
+        {
+          "head": "intake leak",
+          "tail": "#3 cylinder",
+          "support": 28
+        },
+        {
+          "head": "oil leak",
+          "tail": "left hand engine",
+          "support": 26
+        },
+        {
+          "head": "engine intake leak",
+          "tail": "left hand engine",
+          "support": 26
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "#2 cylinder",
+          "support": 23
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "#3 cylinder",
+          "support": 22
+        },
+        {
+          "head": "left hand engine",
+          "tail": "aircraft",
+          "support": 21
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "#4 cylinder",
+          "support": 19
+        },
+        {
+          "head": "leak",
+          "tail": "left hand engine",
+          "support": 18
+        },
+        {
+          "head": "water",
+          "tail": "fuel system",
+          "support": 17
+        },
+        {
+          "head": "intake leak",
+          "tail": "left engine",
+          "support": 17
+        },
+        {
+          "head": "intake gasket",
+          "tail": "left hand engine",
+          "support": 16
+        },
+        {
+          "head": "landing gear",
+          "tail": "aircraft",
+          "support": 14
+        },
+        {
+          "head": "intake leak",
+          "tail": "#2 cylinder",
+          "support": 14
+        },
+        {
+          "head": "intake leak",
+          "tail": "#4 cylinder",
+          "support": 14
+        },
+        {
+          "head": "#3 cylinder",
+          "tail": "engine",
+          "support": 14
+        }
+      ]
+    },
+    "REQUIRES_ACTION": {
+      "count": 4194,
+      "top_examples": [
+        {
+          "head": "intake leak",
+          "tail": "intake gasket replacement",
+          "support": 173
+        },
+        {
+          "head": "gasket leak",
+          "tail": "gasket replacement",
+          "support": 153
+        },
+        {
+          "head": "rocker cover leak",
+          "tail": "rocker cover gasket replacement",
+          "support": 150
+        },
+        {
+          "head": "intake leak",
+          "tail": "gasket replacement",
+          "support": 134
+        },
+        {
+          "head": "engine intake leak",
+          "tail": "intake gasket replacement",
+          "support": 119
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "rocker cover gasket replacement",
+          "support": 111
+        },
+        {
+          "head": "rocker cover gasket leak",
+          "tail": "rocker cover gasket replacement",
+          "support": 92
+        },
+        {
+          "head": "leak",
+          "tail": "gasket replacement",
+          "support": 86
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "gasket replacement",
+          "support": 76
+        },
+        {
+          "head": "engine intake leak",
+          "tail": "gasket replacement",
+          "support": 63
+        },
+        {
+          "head": "#2 intake leak",
+          "tail": "intake gasket replacement",
+          "support": 58
+        },
+        {
+          "head": "rocker cover leak",
+          "tail": "gasket replacement",
+          "support": 58
+        },
+        {
+          "head": "#2 intake leak",
+          "tail": "gasket replacement",
+          "support": 56
+        },
+        {
+          "head": "intake 4 leak",
+          "tail": "gasket replacement",
+          "support": 43
+        },
+        {
+          "head": "#4 intake gasket",
+          "tail": "gasket replacement",
+          "support": 40
+        },
+        {
+          "head": "oil leak",
+          "tail": "gasket replacement",
+          "support": 33
+        },
+        {
+          "head": "oil leak",
+          "tail": "rocker cover gasket replacement",
+          "support": 31
+        },
+        {
+          "head": "intake gasket",
+          "tail": "gasket replacement",
+          "support": 31
+        },
+        {
+          "head": "leak",
+          "tail": "rocker cover gasket replacement",
+          "support": 30
+        },
+        {
+          "head": "intake gasket",
+          "tail": "intake gasket replacement",
+          "support": 29
+        }
+      ]
+    },
+    "INSPECTED_BY": {
+      "count": 224,
+      "top_examples": [
+        {
+          "head": "engine",
+          "tail": "mechanic",
+          "support": 5
+        },
+        {
+          "head": "ground run",
+          "tail": "operational safety section",
+          "support": 5
+        },
+        {
+          "head": "engine",
+          "tail": "maintenance personnel",
+          "support": 4
+        },
+        {
+          "head": "leak check",
+          "tail": "operational safety section",
+          "support": 4
+        },
+        {
+          "head": "engine",
+          "tail": "operational safety section",
+          "support": 3
+        },
+        {
+          "head": "leak check",
+          "tail": "maintenance technician",
+          "support": 3
+        },
+        {
+          "head": "crankshaft",
+          "tail": "maintenance personnel",
+          "support": 3
+        },
+        {
+          "head": "pilot",
+          "tail": "aircraft",
+          "support": 2
+        },
+        {
+          "head": "pilot",
+          "tail": "battery",
+          "support": 2
+        },
+        {
+          "head": "#2 cylinder",
+          "tail": "compression test",
+          "support": 2
+        },
+        {
+          "head": "engine inspection",
+          "tail": "lycoming manual",
+          "support": 2
+        },
+        {
+          "head": "engine inspection",
+          "tail": "maintenance personnel",
+          "support": 2
+        },
+        {
+          "head": "operational safety section",
+          "tail": "leak check",
+          "support": 2
+        },
+        {
+          "head": "tie rod",
+          "tail": "maintenance personnel",
+          "support": 2
+        },
+        {
+          "head": "fdm card data",
+          "tail": "maintenance personnel",
+          "support": 2
+        },
+        {
+          "head": "student pilot",
+          "tail": "instructor",
+          "support": 1
+        },
+        {
+          "head": "pilot",
+          "tail": "preflight inspection",
+          "support": 1
+        },
+        {
+          "head": "pilot",
+          "tail": "fuel quantity gauge",
+          "support": 1
+        },
+        {
+          "head": "pilot",
+          "tail": "control check",
+          "support": 1
+        },
+        {
+          "head": "pilot",
+          "tail": "engine rpm",
+          "support": 1
+        }
+      ]
+    },
+    "REPLACED_BY": {
+      "count": 667,
+      "top_examples": [
+        {
+          "head": "gasket",
+          "tail": "new gasket",
+          "support": 941
+        },
+        {
+          "head": "intake gasket",
+          "tail": "new intake gasket",
+          "support": 572
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "new rocker cover gasket",
+          "support": 538
+        },
+        {
+          "head": "screw",
+          "tail": "new screw",
+          "support": 66
+        },
+        {
+          "head": "rocker gasket",
+          "tail": "new rocker gasket",
+          "support": 41
+        },
+        {
+          "head": "#2 intake gasket",
+          "tail": "new #3 intake gasket",
+          "support": 31
+        },
+        {
+          "head": "#2 rocker cover leak",
+          "tail": "rocker cover gasket #2",
+          "support": 31
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "new gasket",
+          "support": 29
+        },
+        {
+          "head": "#1 intake gasket",
+          "tail": "#2 intake leak",
+          "support": 28
+        },
+        {
+          "head": "#1 intake tube gasket",
+          "tail": "induction tube gaskets",
+          "support": 25
+        },
+        {
+          "head": "#2 intake gasket",
+          "tail": "new gasket",
+          "support": 24
+        },
+        {
+          "head": "intake gasket",
+          "tail": "new gasket",
+          "support": 21
+        },
+        {
+          "head": "gaskets",
+          "tail": "new gasket",
+          "support": 20
+        },
+        {
+          "head": "cylinder",
+          "tail": "new cylinder",
+          "support": 19
+        },
+        {
+          "head": "rocker cover",
+          "tail": "new rocker cover",
+          "support": 18
+        },
+        {
+          "head": "rivets",
+          "tail": "new rivet",
+          "support": 16
+        },
+        {
+          "head": "#1 rocker gasket leak",
+          "tail": "#2 rocker cover leak",
+          "support": 14
+        },
+        {
+          "head": "rocker box cover gasket",
+          "tail": "new rocker box cover gasket",
+          "support": 14
+        },
+        {
+          "head": "baffle",
+          "tail": "new baffle",
+          "support": 13
+        },
+        {
+          "head": "#1 rocker gasket leak",
+          "tail": "new rocker cover gasket",
+          "support": 12
+        }
+      ]
+    },
+    "PRECEDED_BY": {
+      "count": 1197,
+      "top_examples": [
+        {
+          "head": "engine failure",
+          "tail": "takeoff",
+          "support": 32
+        },
+        {
+          "head": "engine power loss",
+          "tail": "takeoff",
+          "support": 8
+        },
+        {
+          "head": "aircraft",
+          "tail": "taxi operation",
+          "support": 5
+        },
+        {
+          "head": "engine start",
+          "tail": "engine roughness",
+          "support": 5
+        },
+        {
+          "head": "takeoff",
+          "tail": "flight",
+          "support": 3
+        },
+        {
+          "head": "engine failure",
+          "tail": "liftoff",
+          "support": 3
+        },
+        {
+          "head": "power loss",
+          "tail": "takeoff",
+          "support": 3
+        },
+        {
+          "head": "engine power loss",
+          "tail": "liftoff",
+          "support": 3
+        },
+        {
+          "head": "takeoff roll",
+          "tail": "engine start",
+          "support": 3
+        },
+        {
+          "head": "loose cowling",
+          "tail": "takeoff",
+          "support": 3
+        },
+        {
+          "head": "taxiing",
+          "tail": "landing",
+          "support": 3
+        },
+        {
+          "head": "runway excursion",
+          "tail": "abort takeoff",
+          "support": 3
+        },
+        {
+          "head": "engine start",
+          "tail": "engine rough running",
+          "support": 3
+        },
+        {
+          "head": "engine start",
+          "tail": "normal engine start",
+          "support": 3
+        },
+        {
+          "head": "engine start",
+          "tail": "rough engine operation",
+          "support": 3
+        },
+        {
+          "head": "crash",
+          "tail": "takeoff",
+          "support": 3
+        },
+        {
+          "head": "engine start up",
+          "tail": "engine vibration",
+          "support": 3
+        },
+        {
+          "head": "engine start lean procedure",
+          "tail": "engine ran smoothly",
+          "support": 3
+        },
+        {
+          "head": "takeoff",
+          "tail": "taxiing",
+          "support": 2
+        },
+        {
+          "head": "takeoff",
+          "tail": "pilot action",
+          "support": 2
+        }
+      ]
+    },
+    "AFFECTS": {
+      "count": 2112,
+      "top_examples": [
+        {
+          "head": "engine",
+          "tail": "aircraft operation",
+          "support": 17
+        },
+        {
+          "head": "#2 intake leak",
+          "tail": "#2 cylinder",
+          "support": 17
+        },
+        {
+          "head": "fuel system",
+          "tail": "engine operation",
+          "support": 14
+        },
+        {
+          "head": "cylinder",
+          "tail": "engine operation",
+          "support": 12
+        },
+        {
+          "head": "intake leak",
+          "tail": "#3 cylinder",
+          "support": 12
+        },
+        {
+          "head": "intake 3",
+          "tail": "engine performance",
+          "support": 12
+        },
+        {
+          "head": "engine",
+          "tail": "flight operation",
+          "support": 11
+        },
+        {
+          "head": "engine",
+          "tail": "engine operation",
+          "support": 11
+        },
+        {
+          "head": "engine",
+          "tail": "flight",
+          "support": 10
+        },
+        {
+          "head": "engine",
+          "tail": "operational safety",
+          "support": 10
+        },
+        {
+          "head": "low compression",
+          "tail": "#3 cylinder",
+          "support": 10
+        },
+        {
+          "head": "intake leak",
+          "tail": "left hand engine",
+          "support": 10
+        },
+        {
+          "head": "rocker cover gasket",
+          "tail": "engine oil system",
+          "support": 9
+        },
+        {
+          "head": "sniffler valves",
+          "tail": "engine performance",
+          "support": 9
+        },
+        {
+          "head": "#2 intake",
+          "tail": "engine performance",
+          "support": 9
+        },
+        {
+          "head": "cylinder 2 intake",
+          "tail": "engine performance",
+          "support": 9
+        },
+        {
+          "head": "engine",
+          "tail": "aircraft flight",
+          "support": 8
+        },
+        {
+          "head": "engine",
+          "tail": "oil level",
+          "support": 8
+        },
+        {
+          "head": "left engine #2 intake",
+          "tail": "engine operation",
+          "support": 8
+        },
+        {
+          "head": "left hand engine",
+          "tail": "intake system",
+          "support": 8
+        }
+      ]
+    },
+    "INSTANCE_OF": {
+      "count": 768,
+      "top_examples": [
+        {
+          "head": "engine",
+          "tail": "aircraft engine",
+          "support": 26
+        },
+        {
+          "head": "student pilot",
+          "tail": "pilot",
+          "support": 12
+        },
+        {
+          "head": "#3 cylinder",
+          "tail": "cylinder",
+          "support": 11
+        },
+        {
+          "head": "#4 cylinder",
+          "tail": "cylinder",
+          "support": 10
+        },
+        {
+          "head": "right engine",
+          "tail": "engine",
+          "support": 9
+        },
+        {
+          "head": "#2 cylinder",
+          "tail": "cylinder",
+          "support": 7
+        },
+        {
+          "head": "engine",
+          "tail": "lycoming engine",
+          "support": 6
+        },
+        {
+          "head": "helicopter",
+          "tail": "aircraft",
+          "support": 6
+        },
+        {
+          "head": "pilot in command",
+          "tail": "pilot",
+          "support": 5
+        },
+        {
+          "head": "sniffler valves",
+          "tail": "valve",
+          "support": 5
+        },
+        {
+          "head": "left main gear",
+          "tail": "landing gear",
+          "support": 4
+        },
+        {
+          "head": "nose gear",
+          "tail": "landing gear",
+          "support": 4
+        },
+        {
+          "head": "cessna 172",
+          "tail": "aircraft",
+          "support": 4
+        },
+        {
+          "head": "cylinder",
+          "tail": "engine component",
+          "support": 4
+        },
+        {
+          "head": "left hand engine",
+          "tail": "engine",
+          "support": 4
+        },
+        {
+          "head": "engine baffle plugs",
+          "tail": "engine component",
+          "support": 4
+        },
+        {
+          "head": "pilot",
+          "tail": "aircraft operator",
+          "support": 3
+        },
+        {
+          "head": "left engine",
+          "tail": "engine",
+          "support": 3
+        },
+        {
+          "head": "glider",
+          "tail": "aircraft",
+          "support": 3
+        },
+        {
+          "head": "instructor",
+          "tail": "pilot",
+          "support": 3
+        }
+      ]
+    }
+  }
+}
